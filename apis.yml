@@ -1,9 +1,28 @@
 aid: cerberus-tech-inc
 name: Cerberus Tech, Inc.
-description: Cerberus Tech, Inc. is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Cerberus Tech, Inc. (C7 Security) is a Central Asian cybersecurity firm
+  combining practical offensive security with research-backed methodology. Its flagship
+  product, Cerberus, is an IDE and programming language purpose-built for ethical
+  hackers to run faster penetration-testing assessments. Services span security assessment
+  (penetration testing, audits, red teaming), secure development (code, design, and
+  architecture reviews), OSINT reconnaissance, R&D grounded in type theory, and consulting.
+  The company also runs C7 Academy, an elite penetration-testing training program,
+  alongside free education and community initiatives. It reports 150+ security audits
+  with a 95%+ penetration rate and 300+ students trained. Backed by 500 Global; surfaced
+  to the API Evangelist network as a portfolio lead.'
 url: https://raw.githubusercontent.com/api-evangelist/cerberus-tech-inc/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://c7-security.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Cybersecurity
+- Security
+- Penetration Testing
+- Red Teaming
+- OSINT
+- Ethical Hacking
+- Security Training
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cerberus-tech-inc-domain-security.yml
 - type: Website
   url: https://c7-security.com
+- type: Blog
+  url: https://c7-security.com/blog
+- type: Support
+  url: https://c7-security.com/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
