@@ -1,5 +1,5 @@
 aid: cerberus-tech-inc
-name: Cerberus Tech, Inc.
+name: C7 Security
 description: 'Cerberus Tech, Inc. (C7 Security) is a Central Asian cybersecurity firm
   combining practical offensive security with research-backed methodology. Its flagship
   product, Cerberus, is an IDE and programming language purpose-built for ethical
@@ -72,3 +72,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Cerberus Tech, Inc.
